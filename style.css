@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    min-width: 300px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    margin-top: 15px;
+    
+}
+.content-navbar {
+    display: flex;
+   
+}
+.nav-items {
+    padding-right: 50px;
+    font-size: 17px;
+}
+.nav-items a {
+    color: rgb(117, 115, 115);  
+}
+.nav-items a:hover {
+    border-bottom: 3px solid rgb(65, 65, 245) ;
+    transition: border.3s;
+}
+.nav-items01 {
+    border-bottom: 1px solid black;
+}
+.nav-items01 a {
+    color: black;
+}
+.nav-items01:hover {
+    border-bottom: 2px solid #E7502A;
+    transition: border.3s;
+   
+}
+.navbar-img {
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(126, 124, 124);
+}
+.smart {
+    width: 35%;
+    margin-top: 100px;
+    
+}
+.smart h1{
+    font-size: 37px;
+}
+.smart p {
+    padding: 10px;
+    border: 2px rgb(110, 107, 107);
+    border-left-style: solid;
+    margin-top: 30px;
+}
+.smart a {
+    color: white;  
+    font-size: 19px;
+}
+.smart h5:hover {
+    background-color: rgb(218, 45, 45);
+    transition: background .3s;
+}
+.smart h5 {
+    margin-top: 25px;
+    width: 65%;
+    text-align: center;
+    background-color:#E7502A;
+    padding: 8px 10px;
+}
+.smart h6 {
+    margin-top: 25px;
+    text-align: center;
+    width: 40%;
+    background-color:#E7502A;
+    padding: 8px 10px;
+}
+.smart h6:hover {
+    background-color: rgb(218, 45, 45);
+    transition: .3s;
+}
+.banner-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.banner-info {
+    width: 25%;
+}
+.banner-info h5 {
+    margin-top: 25px;
+    font-size: 16px;
+}
+.banner-info p {
+    margin-top: 30px;
+}
+.home-info   {
+    margin-top: 10px;
+    color: #E7502A;
+    font-size: 14px;
+}
+.smart_watchers {
+    display: flex;
+}
+.smart_watchers01 {
+    margin-top: 100px;
+   
+}
+.smart_watchers01 img {
+    height: 420px;
+    border-radius: 2px;
+}
+.navbar-img {
+    background-image:url(./img/soat.jpg) ;
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-size: 450px 450px;
+    height: 425px;
+   
+}
+.footer-smart {
+    width: 35%;
+    margin-top: 40px;
+    margin-left: 720px;
+    padding-top: 80px;
+    
+}
+.footer-smart p {
+    padding: 10px;
+    border: 2px white;
+    color: white;
+    border-left-style: solid;
+    margin-top: 30px;
+}
+.footer-smart h1 {
+    color: white;
+   
+}
+.footer-smart a {
+    color: white;  
+}
+
+
+.footer-smart h6 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    width: 40%;
+    background-color:#E7502A;
+    padding: 8px 10px;
+}
+.footer-smart h6:hover {
+    background-color: rgb(231, 28, 28);
+    transition: background .3s;
+}
+.footer {
+    background-image: url(./img/nature3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    height: 400px;
+}
+
+
+
+
+
+
+
